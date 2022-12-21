@@ -18,6 +18,7 @@ using Microsoft.Extensions.Logging;
     //Main method
         public static void Main(string[] args)
         {
+        var S = 0;
         //Create host, host web
             var webHost = CreateWebHostBuilder(args).Build();
 
